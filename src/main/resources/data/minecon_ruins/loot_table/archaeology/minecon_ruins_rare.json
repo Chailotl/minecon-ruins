@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecon_ruins:minecon_2011_cape"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecon_ruins:minecon_2012_cape"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecon_ruins:minecon_2013_cape"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecon_ruins:minecon_2015_cape"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecon_ruins:minecon_2016_cape"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecon_ruins:archaeology/minecon_ruins_rare"
+}

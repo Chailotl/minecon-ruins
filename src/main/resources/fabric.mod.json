@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "minecon_ruins",
+	"version": "${version}",
+	"name": "${name}",
+	"description": "An archaeology mod about a relic from Minecraft's past",
+	"authors": [
+		"Chai"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/minecon-ruins/",
+		"sources": "https://github.com/chailotl/minecon-ruins",
+		"issues": "https://github.com/chailotl/minecon-ruins/issues"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/SuZb3aJUCx"
+			}
+		}
+	},
+	"license": "LGPL-3.0",
+	"icon": "assets/minecon_ruins/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.chailotl.minecon_ruins.MineconRuins"
+		]
+	},
+	"mixins": [
+		"minecon_ruins.mixins.json"
+	],
+	"accessWidener" : "minecon_ruins.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"trinkets": "^3.10.0"
+	}
+}

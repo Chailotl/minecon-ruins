@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.chailotl.minecon_ruins.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"AbstractClientPlayerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"client": [
+	]
+}

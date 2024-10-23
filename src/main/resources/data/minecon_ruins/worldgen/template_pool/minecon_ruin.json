@@ -1,0 +1,14 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecon_ruins:minecon_ruin",
+				"projection": "rigid",
+				"processors": "minecon_ruins:minecon_ruins"
+			}
+		}
+	]
+}

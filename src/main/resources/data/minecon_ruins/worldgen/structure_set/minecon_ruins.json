@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "minecon_ruins:minecon_ruin",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"spacing": 32,
+		"separation": 8,
+		"salt": 1646207470
+	}
+}
